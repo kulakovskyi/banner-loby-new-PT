@@ -118,7 +118,7 @@ body {
       margin: 80px 35px 0 0; }
     .banner__dep .in {
       font-family: SuisseIntl-SemiBold, sans-serif;
-      font-size: 64px;
+      font-size: 55px;
       line-height: 79px;
       letter-spacing: 0.01em;
       text-transform: uppercase;
@@ -132,16 +132,17 @@ body {
         display: none; }
     .banner__dep p {
       font-family: SuisseIntl-SemiBold, sans-serif;
-      font-size: 64px;
+      font-size: 55px;
       line-height: 65px;
       text-align: center;
       letter-spacing: 0.01em;
       text-transform: uppercase;
       color: #EDEDED; }
       .banner__dep p span {
+        font-family: SuisseIntl-SemiBold, sans-serif;
         display: block;
-        font-size: 40px;
-        line-height: 52px;
+        font-size: 35px;
+        line-height: 42px;
         white-space: nowrap;
         margin-top: -4px; }
     .banner__dep-right {
@@ -195,15 +196,18 @@ body {
     background-position: -114px 0; }
     .banner__dep-left {
       margin: -22px 15px 0 0; } }
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 745px) {
   .banner__dep {
-    right: 15px; } }
+    right: 15px; }
+    .banner__dep p span {
+      font-size: 22px;
+      line-height: 29px; } }
 @media screen and (max-width: 730px) {
   .banner {
     background-position: -174px 0; } }
 @media screen and (max-width: 690px) {
   .banner {
-    padding: 50px 0 135px 0;
+    padding: 50px 0 150px 0;
     background-position: 50% 0;
     position: relative; }
     .banner__info {
@@ -270,7 +274,13 @@ body {
       .banner__dep-left {
         margin: 0 0 20px 0; }
       .banner__dep-right p {
-        margin: 0 -4px 0 -15px; } }
+        position: relative;
+        top: 18px;
+        margin: 0 -14px 0 -24px; }
+        .banner__dep-right p span {
+          font-size: 15px;
+          line-height: 19px;
+          margin-top: -2px; } }
 @media screen and (max-width: 485px) {
   .banner__dep .in-mob {
     display: none; } }
